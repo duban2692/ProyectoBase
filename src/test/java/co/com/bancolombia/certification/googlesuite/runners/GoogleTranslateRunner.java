@@ -1,7 +1,6 @@
 package co.com.bancolombia.certification.googlesuite.runners;
 
 import org.junit.runner.RunWith;
-
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -16,6 +15,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		glue = "co.com.bancolombia.certification.googlesuite.runners",
 		snippets = SnippetType.CAMELCASE
 		)
+
 public class GoogleTranslateRunner {
 
 }
